@@ -1,0 +1,67 @@
+body{
+    margin:auto;
+    text-align: center;
+    background-image:url(https://codetheweb.blog/assets/img/posts/css-advanced-background-images/cover.jpg);
+    height: 100vh;
+}
+
+h1{
+    background-image: linear-gradient(rgb(255, 0, 242), rgb(8, 52, 229));
+    color: white;
+    display: inline-block;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+}
+
+.button{
+    margin-top: 3%;
+    display: grid;
+    grid-template-columns: auto auto  auto;
+    width: 100%;
+    justify-content: center;
+    opacity: 0.6;
+}
+
+button{
+    padding: 40px ;
+    cursor: pointer;
+    background-color: black;
+    color : white;
+    width: 120px;
+    height: 120px;  
+    font-size: 200%;
+    border-radius: 10px;
+  
+}
+
+h2
+{
+    display: inline-block; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 200%;
+    color:white;
+    border-radius: 10px;
+    background-image: linear-gradient(rgb(255, 0, 242), rgb(8, 52, 229));
+}
+
+#restart
+{
+    width: auto;
+    height: auto;
+    padding:10px;
+    font-size: 200%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 30px;
+    background-color: rgb(73, 164, 79);
+    border: none;
+}
+#restart:active {
+    transform: scale(0.9);
+}
+#restart:hover
+{
+    scale: 1.1;
+    background-color: red;
+}
+
